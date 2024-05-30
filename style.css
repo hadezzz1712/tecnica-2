@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav li ul {
+    display: none;
+    position: absolute;
+    background-color: #f0f0f0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+nav li ul a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+nav li ul a:hover {
+    background-color: #ddd;
+}
+
+nav li:hover ul {
+    display: block;
+}
+
+
+.banner {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.banner img {
+    width: 80%;
+    max-width: 600px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.producto {
+    width: 25%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.producto img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.producto h3 {
+    margin-top: 10px;
+}
+
+.producto p {
+    margin-top: 5px;
+}
+
+footer {
+    height: 20px;
+    background-color: #f0f0f0; 
+    padding: 20px; 
+  }
+  
+  .footer-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+  }
+  
+  .footer-info {
+    flex-basis: 50%; 
+   text-align: left;
+   justify-content: left;
+  }
+  
+  .footer-social {
+    flex-basis: 50%; 
+    text-align: right; 
+  }
+  
+  .footer-info p {
+    margin: 0; 
+  }
+  
+  .footer-social ul {
+    list-style: none; 
+    padding: 0; 
+  }
+  
+  .footer-social li {
+    display: inline-block; 
+    margin: 0 10px; 
+  }
+  
+  .footer-social a {
+    color: #333; 
+    text-decoration: none; 
+  }
+  
+  .footer-social a:hover {
+    color: #000; 
+  }
+  
+
+  .fab {
+    font-family: "Font Awesome 5 Free";
+  }
+  
+  .fab i {
+    margin-right: 5px; 
+  }
+  
+
+  .producto a.boton {
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: white; 
+    text-decoration: none; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+
+  h1{
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #64afff;
+    cursor: pointer;
+
+  }
+
+  .texto{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+
+  }
+
+  h2{
+    font-size: 30px; 
+    text-align: center;
+    justify-content: center;
+    color: #3999ff;
+  }
+
+  .logo{
+  display: block; 
+  margin: 0 auto;
+  width: fit-content;
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  justify-content: ;
+
+  }
